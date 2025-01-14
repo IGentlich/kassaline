@@ -1,5 +1,6 @@
 
 ### Start
+- `git clone https://github.com/IGentlich/kassaline.git`
 - `cd kassaline`
 - `docker compose up --build`
 - `docker compose exec php bash`
