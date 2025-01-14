@@ -1,12 +1,10 @@
 
 ### Start
-- `docker compose up`
-- `php artisan migrate`
-
-if an error occured during migration:
--  in .env file change `DB_HOST=db` to `DB_HOST=127.0.0.1`
-- `php artisan migrate`
--  in .env file change `DB_HOST=127.0.0.1` back to `DB_HOST=db`
+- `cd kassaline`
+- `docker compose up --build`
+- `docker compose exec php bash`
+- `composer setup`
+- open http://localhost
 
 ### phpMyAdmin
 - URL: http://localhost:8080
